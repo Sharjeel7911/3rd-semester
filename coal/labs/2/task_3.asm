@@ -5,12 +5,12 @@
       .code
       main proc
        ;DX = AX + BH - CL + DX
-       ;Initialize the AX, BX, CX, and DX with 0100h, 55ABh, 0A11h and 0001h
+       ;Initialize the AX, BX, CX, and DX with 0x0100, 0x55ab, 0x0a11 and 0x0001
        
-       mov ax, 0100h
-       mov bx, 55abh
-       mov cx, 0a11h
-       mov dx, 0001h
+       mov ax, 0x0100
+       mov bx, 0x55ab 
+       mov cx, 0x0a11 
+       mov dx, 0x0001 
        
        add dx, ax
         
@@ -22,6 +22,6 @@
        mov ah, 0
        sub dx, ax
        
-       ;dx = 0145h
+       ;dx = 0x0145
        main endp 
       .exit

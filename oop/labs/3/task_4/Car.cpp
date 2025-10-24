@@ -40,7 +40,7 @@ void Car::displayCarDetails() {
     cout << "Car Brand: " << brand << endl;
     cout << "Car Model: " << model << endl;
     cout << "Manufacturing Year: " << year << endl;
-    cout << "Car Age: " << calculateCarAge(2024) << " years" << endl;
-    if (isVintage(2024)) cout << "Car is Vintage" << endl;
+    cout << "Car Age: " << calculateCarAge(2025) << " years" << endl;
+    if (isVintage(2025)) cout << "Car is Vintage" << endl;
     else cout << "Car is not Vintage" << endl;
 }
