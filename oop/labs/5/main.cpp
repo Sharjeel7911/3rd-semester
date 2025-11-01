@@ -1,6 +1,6 @@
 #include "main.h"
 
-//g++ main.cpp task_1/*.cpp task_2/*.cpp task_3/*.cpp task_4/*.cpp task_5/*.cpp task_6/*.cpp task_7/*.cpp -o x.exe && .\x.exe
+//g++ main.cpp task-1/*.cpp task-2/*.cpp task-3/*.cpp task-4/*.cpp task-5/*.cpp task-6/*.cpp task-7/*.cpp -o x.exe && .\x.exe
 
 void rectangle();
 void product();

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-//g++ main.cpp task_1/*.cpp task_2/*.cpp task_3/*.cpp task_4/*.cpp -o x.exe && .\x.exe
+//g++ main.cpp task-1/*.cpp task-2/*.cpp task-3/*.cpp task-4/*.cpp -o x.exe && .\x.exe
 
 void rectangle();
 void student();
